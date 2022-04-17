@@ -43,14 +43,24 @@
 
         <ul class="navigation list">
           <li class="navigation-link">
-            <a class="nav-site nav-link link" href="mailto:info@devstudio.com">
-              info@devstudio.com
-            </a>
+            <div class="mail">
+              <a class="nav-site link" href="mailto:info@devstudio.com"
+                ><svg class="mail-icon" width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </div>
           </li>
           <li class="navigation-link">
-            <a class="nav-site nav-link link" href="tel:+380961111111">
-              +38 096 111 11 11
-            </a>
+            <div class="phone">
+              <a class="nav-site link" href="tel:+380961111111"
+                ><svg class="phone-icon" width="10" height="16">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11
+              </a>
+            </div>
           </li>
         </ul>
       </div>
@@ -193,34 +203,61 @@
     </main>
     <footer class="main-footer">
       <div class="container">
-        <div class="logo-item">
-          <a class="logo-name-footer link" href="#"
-            ><span class="logo-first">Web</span>Studio</a
-          >
+        <div class="footer-address">
+          <div class="logo-item">
+            <a class="logo-name-footer link" href="#"
+              ><span class="logo-first">Web</span>Studio</a
+            >
+          </div>
+          <address>
+            <ul class="list">
+              <li class="contact-info-list">
+                <a
+                  class="address-info link"
+                  href="https://goo.gl/maps/8xAyCc6BftRqbFo67"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="contact-info-list">
+                <a class="mail-phone-info link" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="contact-info-list">
+                <a class="mail-phone-info link" href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
         </div>
-        <address>
-          <ul class="list">
-            <li class="contact-info-list">
-              <a
-                class="address-info link"
-                href="https://goo.gl/maps/8xAyCc6BftRqbFo67"
-                target="_blank"
-                rel="noopener noreferrer"
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
+        <div class="social">
+          <h3 class="social-title">присоединяйтесь</h3>
+          <ul class="social-icon list">
+            <li class="icon">
+              <svg class="icon-item" width="20" height="20">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
             </li>
-            <li class="contact-info-list">
-              <a class="mail-phone-info link" href="mailto:info@example.com"
-                >info@example.com</a
-              >
+            <li class="icon">
+              <svg class="icon-item" width="20" height="20">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
             </li>
-            <li class="contact-info-list">
-              <a class="mail-phone-info link" href="tel:+380991111111"
-                >+38 099 111 11 11</a
-              >
+            <li class="icon">
+              <svg class="icon-item" width="20" height="20">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </li>
+            <li class="icon">
+              <svg class="icon-item" width="20" height="20">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
